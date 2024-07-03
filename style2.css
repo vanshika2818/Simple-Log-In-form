@@ -1,0 +1,211 @@
+body{
+    background-color: blueviolet;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+}
+.box{
+    background-color: white;
+    height: 92vh;
+    width:425px;
+    margin-top: 2%;
+    display: flex;
+    border-radius: 10px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 500px;
+    padding-top: 25px;
+    width: 300px;
+    padding-left: 70px;
+}
+.sites{
+    display: flex;
+    height: 54px;
+    width: 360px;
+    margin-left: -17px;
+    justify-content: space-between;
+
+}
+.gg{
+    background-color: rgb(247, 243, 243);
+    margin-right: 15px;
+    font-size: 17px;
+    width: 165px;
+    display: flex;
+    border-color: lightgrey;
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+.gg:hover{
+    background-color: rgb(224, 219, 219);
+    border-color: blueviolet;
+}
+.aa{
+    background-color: rgb(247, 243, 243) ;
+    font-size: 17px;
+    margin-left: 15px;
+    width: 165px;
+    display: flex;
+    border-color: lightgrey;
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+.aa:hover{
+    background-color: rgb(224, 219, 219);
+    border-color: blueviolet;
+}
+.log{
+    font-size: 20px;
+    font-weight: bold;
+}
+.goog{
+    margin-left: 15px;
+    padding-top: 15px;
+}
+.icon1{
+    margin-left: 35px;
+    padding-top: 12px;
+}
+.gicon{
+    height: 25px;
+}
+.ap{
+    margin-left: 15px;
+    padding-top: 15px;
+}
+.icon2{
+    margin-left: 42px;
+    padding-top: 12px;
+}
+.aicon{
+    height: 25px;
+}
+.rr{
+    display: flex;
+    width: 360px;
+    margin-left: -17px;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    border-bottom: solid;
+    border-bottom-color:blueviolet ;
+    width: 166px;
+}
+.mid{
+    padding-top: 4px;
+}
+.right{
+    border-bottom: solid;
+    border-bottom-color:blueviolet ;
+    width: 166px;
+}
+.info1{
+    width: 300px;
+    margin-left:-77px;
+}
+.em{
+    font-size: 19px;
+}
+.bar1{
+    margin-top: -10px;
+    height: 50px;
+    width: 350px;
+    border-style: solid;
+    border-color: lightgrey;
+    border-width: 1px;
+    background-color: rgb(247, 243, 243) ;
+    outline: none;
+    border-radius: 5px;
+}
+.bar1:focus{
+    border-color: blueviolet;
+}
+input::placeholder{
+    font-size: 17px;
+}
+.pass{
+    display: flex;
+    justify-content: space-between;
+    width: 360px;
+    margin-left: -19px;
+}
+.p{
+    font-size: 19px;
+    cursor: pointer;
+}
+.fp{
+    color: blueviolet;
+    font-size: 19px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.fp:hover{
+    text-decoration: underline;
+}
+.bar2{
+    margin-top: -1px;
+    margin-left: -19px;
+    height: 50px;
+    width: 350px;
+    border-style: solid;
+    border-color: lightgrey;
+    border-width: 1px;
+    background-color: rgb(247, 243, 243) ;
+    outline: none;
+    border-radius: 5px;
+}
+.bar2:focus{
+    border-color: blueviolet;
+}
+.log-icon{
+    background-color:  blueviolet;
+    width: 357px;
+    margin-left: -18px;
+    border-radius: 5px;
+    height: 50px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.log-icon:hover{
+    background-color: rgb(111, 31, 185);
+}
+.log-in{
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 155px;
+}
+.last{
+    display: flex;
+    font-size: 19px;
+    margin-top: 15px;
+}
+.sign-in{
+    color: blueviolet;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.sign-in:hover{
+    text-decoration: underline;
+}
+input[type="text"]
+{
+    font-size:17px;
+}
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
